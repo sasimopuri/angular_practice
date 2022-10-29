@@ -12,7 +12,7 @@ export class AppComponent {
   value="";
 
   
-  // // two way binding through event binding //////////////////////////////////////////////////////
+  // // two way binding through event property //////////////////////////////////////////////////////
 
   // submit(event: any){
   //   // console.log(event.data) //input sasi
@@ -28,4 +28,13 @@ export class AppComponent {
   //   //    sasi
   // }
 
+// <><><><><><><><><><><><><><><><><><>Hide and Unhide container using event bind0ing and property binding <><><><><><><><><><><><><><><><>
+//   hide:boolean=false;
+//   hidetxt="Hide container";
+//   hidefunction(){
+//     this.hide=!this.hide;
+//     if(this.hide){this.hidetxt="Show Container"}
+//     else{this.hidetxt="Hide Container"}
+//   }
+  
 }
