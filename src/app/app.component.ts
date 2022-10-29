@@ -9,6 +9,23 @@ export class AppComponent {
   title = 'angular';
   
   // // <!--////////////////////////////////////////////// ngModel //////////////////////////////////////////////////////////////-->
-  // value="";
+  value="";
+
+  
+  // // two way binding through event binding //////////////////////////////////////////////////////
+
+  // submit(event: any){
+  //   // console.log(event.data) //input sasi
+  //   //op : s
+  //       // a
+  //       // s
+  //       // i
+  //   console.log((<HTMLInputElement>event.target).value)
+  //   this.value=(<HTMLInputElement>event.target).value
+  //   // op:s
+  //   //    sa
+  //   //    sas
+  //   //    sasi
+  // }
 
 }

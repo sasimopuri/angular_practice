@@ -9,8 +9,13 @@
 <body>
 
   <!--////////////////////////////////////////////// ngModel //////////////////////////////////////////////////////////////-->
-  <input type="text" [(ngModel)]="value">
-  <h1>{{value}}</h1>
+  <!-- <input type="text" [(ngModel)]="value">
+  <h1>{{value}}</h1> -->
   
+  <!-- /////////////////////// two way binding through event binding /////////////////////////////////////
+  <input type="text" (input)="submit($event)">
+    <span>{{value}}</span> -->
+
+    
 </body>
 </html>
