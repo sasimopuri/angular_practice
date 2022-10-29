@@ -7,17 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
-  value='';
-  hide=true;
-  
-  hidefunction(){
-    this.hide=false;
-  }
-  
-
-  
-  
-  
-  
-  
+    
 }
